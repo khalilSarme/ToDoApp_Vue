@@ -4,7 +4,7 @@ import HomePage from '../views/HomePage.vue'
 
 const routes = [{
   name: 'Home',
-  path: '/',
+  path: '/ToDoApp_Vue/',
   component: HomePage,
   meta: {
     title: 'Get Started'
@@ -12,7 +12,7 @@ const routes = [{
 },
   {
     name: 'Todos',
-    path: '/my_todo_list',
+    path: '/ToDoApp_Vue/my_todo_list',
     component: () => import('../views/MyTodos.vue'),
     meta: {
       title: 'My Todos'
